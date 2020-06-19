@@ -1,5 +1,7 @@
 <?php
 
+namespace OrdinaryEngineer\CodeExamples\LiskovSubstitutionPrinciple\BadExample;
+
 $agent = new Agent();
 $agent->id = 45;
 

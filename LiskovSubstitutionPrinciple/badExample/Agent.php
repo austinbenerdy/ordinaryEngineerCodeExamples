@@ -1,5 +1,7 @@
 <?php
 
+namespace OrdinaryEngineer\CodeExamples\LiskovSubstitutionPrinciple\BadExample;
+
 class Agent
 {
     public string $firstName;

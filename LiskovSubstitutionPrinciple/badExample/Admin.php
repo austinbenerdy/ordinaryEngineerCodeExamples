@@ -1,5 +1,7 @@
 <?php
 
+namespace OrdinaryEngineer\CodeExamples\LiskovSubstitutionPrinciple\BadExample;
+
 class Admin extends Agent
 {
     public function viewAdminPage() :void

@@ -1,5 +1,6 @@
 <?php
 
+namespace OrdinaryEngineer\CodeExamples\LiskovSubstitutionPrinciple\BadExample;
 
 class Client
 {

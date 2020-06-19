@@ -1,5 +1,7 @@
 <?php
 
+namespace OrdinaryEngineer\CodeExamples\OpenClosePrinciple\GoodExample;
+
 $writerRuleset = new WriterRuleSet();
 $editorRuleset = new EditorRuleSet();
 $freelancerRuleset = new FreelancerRuleSet();

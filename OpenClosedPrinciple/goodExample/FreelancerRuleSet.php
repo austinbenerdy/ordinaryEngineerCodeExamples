@@ -1,5 +1,7 @@
 <?php
 
+namespace OrdinaryEngineer\CodeExamples\OpenClosePrinciple\GoodExample;
+
 class FreelancerRuleSet implements RuleSet
 {
     public function calculateComponentOne(array $data) :float
