@@ -15,7 +15,7 @@ class Agent
         // Do Constructor Thing
     }
 
-	public function sendEmailBLast() :array
+	public function sendEmailBlast() :array
     {
         // Send Email Blast to Clients
         foreach ($this->_clientList as $client) {

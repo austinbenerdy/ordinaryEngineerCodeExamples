@@ -11,3 +11,7 @@ $admin->id = 72;
 
 $adminClient = new Client('email@example.com', $admin->id);
 $adminClient->save();
+
+// Send Emails
+$agent->sendEmailBlast();
+$admin->sendEmailBlast();

@@ -12,7 +12,7 @@ class Admin extends Agent
         // Do Something
     }
 
-    public function sendEmailBLast() :array
+    public function sendEmailBlast() :array
     {
         // Explicitely Do Nothing Because Permission Removed.
         return [];
