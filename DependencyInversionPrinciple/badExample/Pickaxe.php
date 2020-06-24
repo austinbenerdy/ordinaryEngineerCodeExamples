@@ -1,6 +1,5 @@
 <?php
 
-
 namespace OrdinaryEngineer\CodeExamples\DependencyInversionPrinciple\BadExample;
 
 

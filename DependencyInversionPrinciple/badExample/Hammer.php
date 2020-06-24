@@ -1,8 +1,6 @@
 <?php
 
-
 namespace OrdinaryEngineer\CodeExamples\DependencyInversionPrinciple\BadExample;
-
 
 class Hammer implements IToolInterface
 {

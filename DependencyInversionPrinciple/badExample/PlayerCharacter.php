@@ -1,8 +1,6 @@
 <?php
 
-
 namespace OrdinaryEngineer\CodeExamples\DependencyInversionPrinciple\BadExample;
-
 
 class PlayerCharacter
 {
@@ -18,7 +16,7 @@ class PlayerCharacter
         $this->tool->use();
     }
 
-    public function swapTool(Tool $newTool) :void
+    public function swapTool(IToolInterface $newTool) :void
     {
         $this->tool = $newTool;
     }

@@ -9,6 +9,6 @@ $hammer = new Hammer();
 
 $player = new PlayerCharacter($pickaxe);
 
-$player->useTool();
+$player->useTool(); // use pickaxe
 $player->swapTool($hammer);
-$player->useTool();
+$player->useTool(); // use hammer
