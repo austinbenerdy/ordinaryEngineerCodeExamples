@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  php:
+    build:
+      context: ./php
+      dockerfile: .docker/Dockerfile
+    volumes:
+      - ./php/app:/var/www/html
+
+  #  apache:
+  #    build:
+  #      context: ./apache
+  #      dockerfile: .docker/Dockerfile
+  #      volumes:
+  #        - ../analytics:/var/www/analytics
+  #        - ../payments:/var/www/payments
+  #        - ../users:/var/www/users
+  #        - ./docker/vhost.local.conf:/etc/nginx/conf.d/default.conf
+  #      ports:
+  #        - "80:80"
